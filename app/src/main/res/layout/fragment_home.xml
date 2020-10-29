@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Movement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="100"
+    android:background="#00FFFFFF"
+    tools:context=".ui.home.HomeFragment"
+    tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="1sp"
+        android:layout_height="1sp"></LinearLayout>
+
+    <TextView
+        android:id="@+id/WellDone"
+        android:layout_width="245dp"
+        android:layout_height="97dp"
+        android:text="Well Done!"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/Current_Task"
+        android:layout_width="32dp"
+        android:layout_height="157dp"
+        android:background="#00FFFFFF"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:textSize="24sp"
+        app:buttonTint="#A6C8E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_box"
+        android:layout_width="235dp"
+        android:layout_height="229dp"
+        android:background="@drawable/box_task"
+        android:gravity="center"
+        android:paddingLeft="22sp"
+        android:paddingTop="15sp"
+        android:paddingRight="22sp"
+        android:paddingBottom="22sp"
+        android:text="The store next door has a large ice cream collection."
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
